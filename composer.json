@@ -1,0 +1,26 @@
+{
+    "name": "xnicon/notification-tg-bot",
+    "description": "Send Notifications to Telegram Channel",
+    "keywords": ["telegram", "rest", "psr7"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "XNicON",
+            "email": "x-icon@ya.ru",
+            "homepage": "https://xnicon.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "monolog/monolog": "^1.17",
+        "php-curl-class/php-curl-class": "^8.6",
+        "slim/slim": "^3.1"
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "scripts": {
+        "start": "php -S localhost:8080 -t public",
+    }
+}
