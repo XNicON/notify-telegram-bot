@@ -1,4 +1,6 @@
-file src/sesstings.php
+#Usage
+
+Create file src/settings.php
 
 
 ```
@@ -30,6 +32,8 @@ Requests:
 ```
 
 type - info|warn|danger|success|notify
+
 app - identify from
+
 text - text notification
 
